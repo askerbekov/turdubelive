@@ -66,6 +66,23 @@ section#content {
   box-shadow: 0 30px 60px #0000007d;
   font-size: 1.1em;
 }
+section#container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #202124;
+
+  padding: 0 20px;
+  border-radius: 10px;
+}
+img {
+  width: 225px;
+  height: 325px;
+  object-fit: contain;
+  margin: 25px auto;
+}
 
 section#content ul {
   list-style-type: none;
